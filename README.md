@@ -19,7 +19,7 @@ A proxy for Ollama to easily disable thinking output for Home Assistant integrat
 
    ```bash
    pip install fastapi httpx uvicorn
-````
+```
 
 2. Configure the Ollama host URL in your code (`OLLAMA_HOST`).
 
