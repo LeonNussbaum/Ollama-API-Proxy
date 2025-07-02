@@ -26,7 +26,7 @@ A proxy for Ollama to easily disable thinking output for Home Assistant integrat
 3. Run the proxy server:
 
    ```bash
-   uvicorn main:app --host 0.0.0.0 --port 8000   
+   uvicorn proxy:app --host 0.0.0.0 --port 11435
 
 
 ## Usage
