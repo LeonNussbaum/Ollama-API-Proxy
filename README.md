@@ -18,16 +18,16 @@ A proxy for Ollama to easily disable thinking output for Home Assistant integrat
 1. Install dependencies:
 
    ```bash
-   pip install fastapi httpx uvicorn
-```
+   pip install fastapi httpx uvicorn ```
+
 
 2. Configure the Ollama host URL in your code (`OLLAMA_HOST`).
 
 3. Run the proxy server:
 
    ```bash
-   uvicorn main:app --host 0.0.0.0 --port 8000
-   ```
+   uvicorn main:app --host 0.0.0.0 --port 8000   ```
+
 
 ## Usage
 
